@@ -1,0 +1,2 @@
+Ideas: 1. Corner case: when the target value is less than or larger than the smallest and largest values in the list, return the first index or the length of the list, when the length of the list is 0, return 0
+	2. Binary search to look for the target value, when the condition breaks, return start index
