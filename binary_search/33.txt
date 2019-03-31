@@ -1,0 +1,10 @@
+very excellent solution!
+The list is rotated, there are three situations to update the end boundary:
+	1. when nums[0] <= target < nums[mid], this range [0,...,mid] is sorted, regard as usually.
+	2. when target < nums[mid] < nums[0], which means the range [target,...m end] is sorted.
+	3. when nums[mid] < nums[0] <= target, which means the range [0,...,target] is sorted.
+The above three situations, we need to update the end boundary.
+
+When nums[mid] == target, just return mid.
+
+else: nums[0] < nums[mid], just update start = mid + 1 
