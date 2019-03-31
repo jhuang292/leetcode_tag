@@ -1,0 +1,1 @@
+This question is used to look for the first bad version of product, binary search is used to look for the first bad product, the algorithm needs to be considered is when the bad versions are found, update the end bound with mid, else update start with mid+1 index, when the condition start < end breaks, return start index.
