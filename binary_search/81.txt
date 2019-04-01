@@ -1,0 +1,2 @@
+The problem is to use binary search to check whether the target value is in the list.
+The whole problem is the traditional binary search, if nums[start] <= nums[mid] and if nums[mid] <= nums[end],then tell the index of target and update the start and end indexes.
